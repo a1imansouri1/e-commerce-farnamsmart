@@ -1,0 +1,174 @@
+th {
+    text-align: center;
+}
+
+.cart_img-box {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.prImgCart{
+    transition: 0.4s;
+}
+
+.prImgCart:hover{
+    transform: scale(1.1);
+    color: #05cce3;
+}
+
+.titCart{
+    transition: 0.3s;
+}
+
+.titCart:hover{
+color: #05cce3;
+}
+
+.decrease_btn_qty1{
+    color: #5866ff;
+}
+
+.increase_btn_qtycoSt{
+    color: #5866ff;
+}
+
+.cart_img-box img {
+    width: 50%;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.cart_item-del {
+    cursor: pointer;
+    color: white;
+    background: #5866ff;
+    border: none;
+    border-radius: 50%;
+    padding: 2px 5px;
+    transition: 0.3s;
+}
+
+.cart_item-del:hover{
+    background: #010c80;
+}
+
+.cart_page-btn button a:hover {
+    color: white;
+}
+
+.cart_subtotal span {
+    color: #5866ff;
+    font-size: 1.5rem;
+}
+
+.cart_subtotal {
+    margin-bottom: 20px;
+}
+
+.cell1 {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background: #5866ff !important;
+    border: 1px solid;
+    font-family: "RocknRoll One", sans-serif !important;
+
+}
+
+.cell2 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: "RocknRoll One", sans-serif !important;
+    color: #010c80;
+}
+
+.cell3{
+    text-align: center;
+    vertical-align: middle;
+    color: #5866ff;
+    font-size: 1.2rem;
+    font-family: "RocknRoll One", sans-serif !important;    
+}
+
+@media only screen and (max-width:768px) {
+
+    th{
+        font-size: 0.6rem !important;
+    }
+
+    .tableCart{
+        margin-left: -10px;
+    }
+
+    .cell2{
+        font-size: 0.7rem;
+    }
+
+    .cell3{
+        font-size: 0.9rem;
+    }
+
+    .quantity{
+        font-size: 0.7rem !important;
+    }
+}
+
+@media only screen and (max-width:576px) {
+
+    th{
+        font-size: 0.6rem !important;
+    }
+
+    .tableCart{
+        margin-left: -10px;
+    }
+
+    .cell2{
+        font-size: 0.6rem;
+    }
+
+    .cell3{
+        font-size: 0.8rem;
+    }
+
+    .quantity{
+        font-size: 0.6rem !important;
+    }
+}
+
+@media only screen and (max-width:430px) {
+
+    th{
+        font-size: 0.7rem !important;
+    }
+
+    .tableCart{
+        margin-left: -5px;
+    }
+
+    .cell2{
+        font-size: 0.5rem;
+    }
+
+    .cell3{
+        font-size: 0.8rem;
+    }
+
+    .quantity{
+        font-size: 0.6rem !important;
+    }
+
+    .cell47{
+        text-align: center !important;
+        vertical-align: middle;
+    }
+
+    .cart_item-del{
+        text-align: center !important;
+        align-self: center !important;
+        margin-right: 10px !important;
+        margin-left: 5px;
+    }
+
+}

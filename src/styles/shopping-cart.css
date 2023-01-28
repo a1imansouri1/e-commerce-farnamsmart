@@ -1,0 +1,172 @@
+.cart_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.639);
+    z-index: 999999999;
+}
+
+.close_outside{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+}
+
+.cart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 550px;
+    height: 100%;
+    background: #fff;
+    z-index: 9999999999;
+}
+
+.cart_close{
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+}
+
+.cart_close-icon{
+    font-size: 1.2rem;
+    background: #010c80;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 1.5px 5px;
+}
+
+.cart_close-icon:hover{
+    background: #df2020;
+}
+
+.cart_item-list{
+    height: calc(100vh - 140px);
+    overflow-y: scroll;
+}
+
+.cart_bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 20px;
+    width: 100%;
+    height: 80px;
+    background: #5866ff;
+    align-items: center;
+    vertical-align: middle !important;
+}
+
+.cart_bottom h6{
+    font-size: 1rem;
+    color: white;
+    vertical-align: middle !important;
+}
+
+.cart_bottom h6 span{
+    font-size: 1rem;
+    font-weight: 600;
+    vertical-align: middle !important;
+
+}
+
+.cart_bottom button{
+    border: none;
+    padding: 4px 20px;
+    border-radius: 5px;
+    background: white;
+}
+
+.cart_bottom button a{
+    color: #353d8f;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.cart_bottom button a:hover{
+    color: #05cce3;
+}
+
+.empty_cart{
+    color: #010c80;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .cart{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 370px;
+        height: 100%;
+        background: #fff;
+        z-index: 9999999999;
+    }
+
+    .subcon{
+        font-size: 0.6rem;
+    }
+    
+    .cart_bottom button{
+        border: none;
+        padding: 5px 20px;
+        border-radius: 5px;
+        background: white;
+    }
+
+    .cart_bottom h6{
+        font-size: 0.9rem;
+        color: white;
+        vertical-align: middle !important;
+    }
+    
+    .cart_bottom h6 span{
+        font-size: 0.8rem;
+        font-weight: 600;
+        vertical-align: middle !important;
+    
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .cart{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 370px;
+        height: 100%;
+        background: #fff;
+        z-index: 9999999999;
+    }
+
+    .subcon{
+        font-size: 0.6rem;
+    }
+    
+    .cart_bottom button{
+        border: none;
+        padding: 5px 20px;
+        border-radius: 5px;
+        background: white;
+        margin-bottom: 25px;
+    }
+
+    .cart_bottom h6{
+        font-size: 0.9rem;
+        margin-bottom: 25px;
+        color: white;
+        vertical-align: middle !important;
+    }
+    
+    .cart_bottom h6 span{
+        font-size: 0.8rem;
+        font-weight: 600;
+        vertical-align: middle !important;
+    
+    }
+}

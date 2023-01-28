@@ -1,0 +1,209 @@
+.cart_item-info img {
+    /* width: 90px; */
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 0px 2px;
+
+}
+
+.cart_product-info {
+    margin-left: 80px;
+    padding: auto;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.cart_item-info {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.cart_product-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #010c80;
+    transition: 0.4s;
+}
+
+.cart_product-title:hover {
+    color: #05cce3;
+}
+
+.cart_product-price {
+    font-size: 0.8rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.cart_product-price span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #5866ff;
+}
+
+.increase_decrease-btn {
+    background: #5866ff;
+    padding: 2px 3px;
+    border-radius: 5px;
+    color: white;
+    /* vertical-align: middle !important; */
+    /* margin-left: 50px; */
+}
+
+.increase_btn_icon_:hover {
+    color: #05cce3;
+}
+
+.decrease_btn_icon_:hover {
+    color: #05cce3;
+}
+
+.decrease_btn {
+    cursor: pointer;
+    color: white !important;
+}
+
+.increase_btn {
+    color: white !important;
+    cursor: pointer;
+}
+
+
+.tr1 {
+    height: 120px !important;
+    vertical-align: middle;
+}
+
+.cell33 {
+    color: #5866ff;
+    font-size: 1.2rem;
+    font-family: "RocknRoll One", sans-serif !important;
+}
+
+.cell44 {
+    width: 150px;
+}
+
+.cart_img-box1 {
+    width: 100px;
+    vertical-align: middle;
+    transition: 0.4s;
+}
+
+.cart_img-box1:hover {
+    transform: scale(1.1);
+}
+
+.cart_img-box1 img {
+    width: 50%;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .cell33 {
+        font-size: 0.9rem;
+    }
+
+    .increase_decrease-btn {
+        background: #5866ff;
+        padding: 0px 3px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .cell44{
+        width: 100px !important;
+    }
+
+    .cart_product-title {
+        font-size: 0.7rem;
+    }
+
+    .cart_product-price {
+        font-size: 0.7rem;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .cart_product-price span {
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: #5866ff;
+    }
+
+    .quantity{
+        font-size: 0.8rem;
+    }
+
+    .cart_img-box1 {
+        width: 120px;
+        vertical-align: middle;
+        transition: 0.4s;
+    }
+    
+    .cart_img-box1 img {
+        margin-top: 25px !important;
+        width: 50%;
+        vertical-align: middle;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .cell33 {
+        font-size: 0.9rem;
+    }
+
+    .increase_decrease-btn {
+        background: #5866ff;
+        padding: 0px 3px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .cell44{
+        width: 100px !important;
+    }
+
+    .cart_item-del{
+        margin-right: 15px;
+    }
+
+    .cart_product-title {
+        font-size: 0.7rem;
+    }
+
+    .cart_product-price {
+        font-size: 0.7rem;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .cart_product-price span {
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: #5866ff;
+    }
+
+    .quantity{
+        font-size: 0.8rem;
+    }
+
+    .cart_img-box1 {
+        width: 100px;
+        vertical-align: middle;
+        transition: 0.4s;
+    }
+    
+    .cart_img-box1 img {
+        margin-top: 25px !important;
+        width: 50%;
+        vertical-align: middle;
+        border-radius: 10px;
+    }
+    
+}

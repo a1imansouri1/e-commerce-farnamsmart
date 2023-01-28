@@ -1,0 +1,17 @@
+import axios from "axios"
+
+
+const [deals, setDeals] = useState([])
+
+const [loading, setLoading] = useState(false)
+
+useEffect(() => {
+    setLoading(true)
+    axios({
+        method: 'GET',
+        url: 'http://kzico.runflare.run/product/'
+    }).then(res => {
+        setDeals(res.data)
+        setLoading(false)
+    })
+}, [setDeals])

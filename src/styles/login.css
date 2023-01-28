@@ -1,0 +1,76 @@
+.form {
+    width: 60%;
+    margin: auto;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.form_group {
+    margin-bottom: 30px;
+}
+
+.form_group input,
+.form_group textarea {
+    width: 100%;
+    background: transparent;
+    padding: 7px 20px;
+    border: none;
+    border-bottom: 1px solid #2122454c;
+}
+
+.form_group input:focus,
+.form_group textarea:focus {
+    outline: none;
+}
+
+.link_register {
+    font-size: 1rem;
+    color: #010c80;
+    transition: 0.3s;
+}
+
+.link_register:hover {
+    color: #05cce3;
+}
+
+.log_message {
+    text-align: center;
+    color: #353d8f;
+}
+
+.link_home_log_div{
+    text-align: center;
+}
+
+.link_home_log {
+    font-size: 1rem;
+    color: #010c80;
+    transition: 0.3s;
+}
+
+.link_home_log:hover {
+    color: #05cce3;
+}
+
+.errmsg{
+    color: #df2020;
+    text-align: center;
+    transform: scale(1.1);
+}
+
+.errmsg2{
+    color: #df2020;
+    text-align: center;
+    transform: scale(1.1);
+    font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 430px) {
+    .errmsg{
+        color: #df2020;
+        text-align: center;
+        transform: scale(1.1);
+        font-size: 0.7rem;
+    }
+}

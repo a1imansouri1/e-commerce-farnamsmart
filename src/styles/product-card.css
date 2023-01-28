@@ -1,0 +1,183 @@
+.product_item {
+    text-align: center;
+    padding: 30px;
+    /* height: 250px; */
+    /* width: 50px !important; */
+}
+
+.product-img2 {
+    height: 150px;
+    /* width: 100px; */
+    margin-bottom: 5px;
+}
+
+.pr-tit {
+    font-size: 1rem;
+    flex-direction: row;
+}
+
+.product_img {
+    margin-bottom: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+    height: 200px;
+    /* width: 50px; */
+}
+
+.product_img img {
+    border-radius: 20px;
+}
+
+.product_img:hover {
+    transform: scale(1.1);
+}
+
+.product_img h5 a {
+    color: #212245;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.product_img h5 {
+    margin-bottom: 30px;
+}
+
+.product_price {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #5866ff;
+    padding: 4px;
+}
+
+.outOfStock {
+    text-align: center;
+    border: none;
+    padding: 7px 25px;
+    background: #d4d6f0;
+    color: rgb(32, 18, 18);
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: 0.3s;
+    font-family: "RocknRoll One", sans-serif !important;
+}
+
+.outOfStockdiv {
+    margin-top: 5px;
+}
+
+.addTOCart_btn {
+    border: none;
+    padding: 7px 25px;
+    background: #5866ff;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.addTOCart_btn:hover {
+    background: #010c80;
+}
+
+
+@media only screen and (max-width:992px) {
+    .product_content h5 a {
+        font-size: 0.8rem;
+    }
+
+    .product_item {
+        padding: 20px;
+    }
+
+    .addTOCart_btn {
+        padding: 5px 15px;
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .outOfStock {
+        text-align: center;
+        border: none;
+        padding: 7px 25px;
+        background: #d4d6f0;
+        color: rgb(32, 18, 18);
+        border-radius: 5px;
+        font-size: 0.7rem;
+        transition: 0.3s;
+        font-family: "RocknRoll One", sans-serif !important;
+    }
+
+    .product-img2 {
+        height: 100px;
+        /* width: 100px; */
+        margin-bottom: 5px;
+    }
+
+    .product_img {
+        /* margin-bottom: 30px;
+        transition: 0.4s;
+        cursor: pointer;
+        /* width: 50px; */
+        height: 135px;
+    }
+
+    .outOfStockdiv {
+        margin-top: 35px !important;
+    }
+
+
+}
+
+@media only screen and (max-width:430px) {
+
+    .outOfStock {
+        text-align: center;
+        border: none;
+        padding: 7px 25px;
+        background: #d4d6f0;
+        color: rgb(32, 18, 18);
+        border-radius: 5px;
+        font-size: 0.6rem;
+        transition: 0.3s;
+        font-family: "RocknRoll One", sans-serif !important;
+    }
+
+    .product-img2 {
+        height: 115px;
+        margin-bottom: 10px;
+    }
+
+    .product_img {
+        height: 150px;
+    }
+
+    .product_img h5 a {
+        color: #212245;
+        font-size: 0.7rem;
+        text-decoration: none;
+    }
+
+    .product_item {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .addTOCart_btn {
+        border: none;
+        padding: 6px 15px;
+        background: #5866ff;
+        color: white;
+        border-radius: 5px;
+        font-size: 0.6rem;
+        transition: 0.3s;
+    }
+
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}

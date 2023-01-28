@@ -1,0 +1,96 @@
+.checkout_bill {
+    background: whitesmoke;
+    padding: 30px;
+    color: #010c80;
+    border-radius: 40px;
+}
+
+.checkout_total {
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+.total_checkout {
+    color: #5866ff;
+    font-weight: 600;
+}
+
+.table {
+    display: table;
+    table-layout: auto;
+}
+
+.checkoutt_form {
+    width: 70%;
+    margin: auto;
+    background: whitesmoke;
+    padding: 20px 20px 20px 20px;
+    border-radius: 40px;
+}
+
+.checkouttt_form {
+    width: 90%;
+    margin: auto;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+/* .table tr td {
+    width: 350px;
+    height: auto;
+} */
+
+/* tr { vertical-align: top } */
+
+/* .last {
+    height: 100% !important;
+} */
+
+.cell666 {
+    /* height: 100% !important; */
+    position: absolute
+}
+
+.cell44 {
+    padding-bottom: 20px !important;
+    vertical-align: middle;
+    color: #0c1ae1 !important;
+    font-size: 1.2rem;
+    font-family: "RocknRoll One", sans-serif !important;
+    border: none;
+}
+
+.cell66 {
+    vertical-align: middle;
+    border: none;
+    color: #010c80;
+    font-family: "RocknRoll One", sans-serif !important;
+    font-size: 1rem;
+}
+
+.cell55 {
+    align-items: center;
+    justify-content: center;
+}
+
+.cell77 {
+    font-size: 1.5rem;
+}
+
+.mobile_err_msg{
+    font-size: 0.7rem;
+    color: #7e82b0;
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .checkout_total h6 {
+        font-size: 0.9rem;
+    }
+
+    .checkout_bill {
+        margin-top: 40px;
+    }
+}

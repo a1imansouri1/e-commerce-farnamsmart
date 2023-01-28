@@ -1,0 +1,27 @@
+.checkout_bill{
+    background: whitesmoke;
+    padding: 30px;
+    color: #010c80;
+    border-radius: 40px;
+}
+
+.checkout_total{
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+.total_checkout{
+    color: #5866ff;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:768px){
+
+    .checkout_total h6{
+        font-size: 0.9rem;
+    }
+
+    .checkout_bill{
+        margin-top: 40px;
+    }
+}

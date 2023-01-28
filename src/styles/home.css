@@ -1,0 +1,160 @@
+.feature_subtitle {
+    color: #df2020;
+}
+
+.feature_title span {
+    color: #df2020;
+}
+
+.feature_text {
+    color: #777;
+}
+
+.feature_item p {
+    color: #777;
+}
+
+.product_category {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+}
+
+.product_category button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    color: white;
+    background: #5866ff;
+    padding: 20px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.product_category button:hover {
+    background: #010c80;
+    transform: translateY(-15px);
+}
+
+.product_category button img {
+    width: 20px;
+    height: 20px;
+}
+
+.productBtnActive {
+    background: #05cce3 !important;
+    border-radius: 5px;
+    color: white !important;
+}
+
+.choose_us-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.choose_us-desc {
+    color: #777;
+}
+
+.title_center {
+    color: #353d8f;
+}
+
+
+@media only screen and (max-width:768px) {
+    .intro_content h5 {
+        font-size: 1rem;
+    }
+
+    .intro_content p {
+        font-size: 0.8rem;
+        line-height: 25px;
+    }
+
+    .intro_title {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .intro_btns button {
+        padding: 5px 15px;
+        font-size: 0.7rem;
+    }
+
+    .feature_item h5 {
+        font-size: 0.9rem;
+    }
+
+    .feature_item p {
+        font-size: 0.8rem;
+        margin-bottom: 0px;
+    }
+
+    .check_icon-span {
+        font-size: 0.7rem !important;
+    }
+
+    .feature_subtitle {
+        font-size: 1rem;
+    }
+
+    .feature_text {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .product_category {
+        padding: 15px;
+    }
+
+    .product_category button {
+        padding: 10px 15px;
+        font-size: 0.7rem;
+    }
+
+    .choose_us-title {
+        font-size: 0.8rem;
+    }
+
+    .choose_us-desc {
+        font-size: 0.7rem;
+    }
+
+    .catButt{
+        display: none !important;  
+    }
+    
+}
+
+@media only screen and (max-width:576px) {
+
+    .intro_content {
+        text-align: center;
+    }
+
+    .intro_btns {
+        justify-content: center;
+    }
+
+    .intro_service {
+        justify-content: center;
+    }
+
+    .intro_btns button {
+        padding: 5px 15px;
+        font-size: 0.7rem;
+    }
+
+    .why_choose-us {
+        padding-top: 0 !important;
+    }
+
+    .catButt{
+        display: none !important;  
+    }
+
+}
+

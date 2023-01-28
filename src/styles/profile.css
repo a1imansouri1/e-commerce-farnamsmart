@@ -1,0 +1,97 @@
+.cart_img-box_ {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.prof {
+    text-align: center;
+}
+
+.prof_form {
+    width: 50%;
+    margin: auto;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.cell6 {
+    width: 100px;
+    vertical-align: middle;
+    border: none;
+    color: #010c80;
+    font-family: "RocknRoll One", sans-serif !important;
+    font-size: 1rem;
+}
+
+.cell44 {
+    width: 250px;
+    vertical-align: middle;
+    color: #5866ff;
+    font-size: 1.2rem;
+    font-family: "RocknRoll One", sans-serif !important;
+    border: none;
+}
+
+.chProLink{
+    text-align: center !important;
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+    th,
+    td {
+        font-size: 0.8rem;
+    }
+
+    .prof_form {
+        width: 80%;
+        margin: auto;
+        background: whitesmoke;
+        padding: 20px;
+        border-radius: 40px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+
+    th,
+    td {
+        font-size: 0.8rem !important;
+    }
+
+    .prof_form {
+        width: 100%;
+        margin: auto;
+        background: whitesmoke;
+        padding: 20px;
+        border-radius: 40px;
+    }
+
+    .cell4 h6{
+        font-size: 0.9rem !important;
+    }
+}
+
+@media only screen and (max-width:430px) {
+
+    th,
+    td {
+        font-size: 0.8rem !important;
+    }
+
+    .prof_form {
+        width: 100%;
+        margin: auto;
+        background: whitesmoke;
+        padding: 20px;
+        border-radius: 40px;
+    }
+
+    .cell4 h6{
+        font-size: 0.9rem !important;
+    }
+}

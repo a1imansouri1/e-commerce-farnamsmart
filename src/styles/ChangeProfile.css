@@ -1,0 +1,133 @@
+.form {
+    width: 60%;
+    margin: auto;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.form_group {
+    margin-bottom: 30px;
+}
+
+.form_group input,
+.form_group textarea {
+    width: 100%;
+    background: transparent;
+    padding: 7px 20px;
+    border: none;
+    border-bottom: 1px solid #2122454c;
+}
+
+.form_group input:focus,
+.form_group textarea:focus {
+    outline: none;
+}
+
+.link_register {
+    font-size: 1rem;
+    color: #010c80;
+    transition: 0.3s;
+}
+
+.link_register:hover {
+    color: #05cce3;
+}
+
+.log_message {
+    text-align: center;
+    color: #353d8f;
+}
+
+.link_home_log_div {
+    text-align: center;
+}
+
+.link_home_log {
+    font-size: 1rem;
+    color: #010c80;
+    transition: 0.3s;
+}
+
+.link_home_log:hover {
+    color: #05cce3;
+}
+
+.errmsg {
+    color: #df2020;
+    text-align: center;
+    transform: scale(1.1);
+}
+
+.sidebarlink {
+    transition: 0.3s;
+}
+
+.sidebarlink:hover {
+    color: #05cce3;
+}
+
+.sidebarhere {
+    color: #05cce3;
+    font-size: 1.5rem;
+}
+
+.setsidebar {
+    font-size: 2rem;
+}
+
+/* .uploadAvatar{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+} */
+
+/* .uploadAvatar + label{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+} */
+
+/* .uploadAvatar:focus + label,
+.uploadAvatar + label:hover {
+    background-color: red;
+}
+
+.uploadAvatar + label {
+	cursor: pointer;
+} */
+
+@media only screen and (max-width: 768px) {
+    .res430Col {
+        margin-bottom: 20px;
+        margin-top: -38px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .res425 {
+        flex-direction: column-reverse;
+    }
+
+    .res430Col {
+        margin-bottom: 20px;
+        margin-top: -80px !important;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .res425 {
+        flex-direction: column-reverse;
+    }
+
+    .res430Col {
+        margin-bottom: 20px;
+        margin-top: -80px !important;
+    }
+}

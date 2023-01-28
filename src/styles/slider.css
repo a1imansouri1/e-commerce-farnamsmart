@@ -1,0 +1,115 @@
+.slider_content1 img {
+    width: 400px;
+    object-fit: cover;
+    float: right;
+    z-index: 100 !important;
+}
+
+.slider_content2 img {
+    width: 500px;
+    object-fit: cover;
+    float: right;
+    z-index: 100 !important;
+}
+
+.slider_content3 img {
+    width: 400px;
+    object-fit: cover;
+    z-index: 100 !important;
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .slider_content img {
+        width: 250px;
+        z-index: 100 !important;
+        position: relative;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    .slider_content img {
+        display: flex !important;
+        align-items: center !important ;
+        margin: 50px 100px 10px 100px !important;
+        /* margin-right: 100px; */
+        justify-content: center !important;
+        width: 250px;
+        z-index: 100 !important;
+        position: relative;
+    }
+
+    .slider_content1 img {
+        width: 300px;
+        object-fit: cover;
+        float: center;
+        z-index: 100 !important;
+        text-align: center !important;
+
+    }
+
+    .slider_content2 img {
+        width: 300px;
+        object-fit: cover;
+        float: center;
+        z-index: 100 !important;
+        text-align: center !important;
+    }
+
+    .slider_content3 img {
+        width: 300px;
+        object-fit: cover;
+        z-index: 100 !important;
+        float: center;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .slider_content img {
+        display: flex !important;
+        align-items: center !important ;
+        margin: 50px 50px 10px 50px !important;
+        justify-content: center !important;
+        width: 250px;
+        z-index: 100 !important;
+        position: relative !important;
+    }
+
+    .slider_content1 img {
+        width: 300px;
+        object-fit: cover;
+        float: center;
+        z-index: 100 !important;
+        text-align: center !important;
+
+    }
+
+    .slider_content2 img {
+        width: 300px;
+        object-fit: cover;
+        float: center;
+        z-index: 100 !important;
+        text-align: center !important;
+    }
+
+    .slider_content3 img {
+        width: 300px;
+        object-fit: cover;
+        z-index: 100 !important;
+        float: center;
+        text-align: center !important;
+    }
+
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}

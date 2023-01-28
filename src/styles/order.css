@@ -1,0 +1,188 @@
+.orderImg {
+    display: flex;
+    flex-direction: row !important;
+    /* align-items: center !important; */
+    /* align-self: baseline; */
+    vertical-align: middle;
+    text-align: center;
+    justify-content: space-between !important;
+}
+
+.prof_form_ {
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 40px;
+    border: 2px solid #010c80;
+    box-shadow: 5px 5px 30px -2px #010c80;
+}
+
+
+.cell4444_ {
+    border-radius: 40px !important;
+    /* background: #5866ff; */
+}
+
+.cell444_ h6 {
+    font-size: 1.5rem !important;
+}
+
+.cell444_ {
+    height: 150px;
+    width: 250px;
+    vertical-align: middle;
+    color: #0c1ae1;
+    font-size: 2rem !important;
+    font-family: "RocknRoll One", sans-serif !important;
+    /* border: none; */
+    /* background: #5866ff !important; */
+    /* border-bottom: none; */
+}
+
+.cell44_ {
+    height: 150px;
+    width: 250px;
+    vertical-align: middle;
+    color: #0c0e23;
+    font-size: 1.2rem;
+    font-family: "RocknRoll One", sans-serif !important;
+    /* border: none; */
+}
+
+.cell66_ {
+    height: 200px;
+    width: 250px;
+    vertical-align: middle;
+    /* border: none; */
+    /* border-bottom: none !important; */
+    /* border-bottom: #010c80 !important; */
+    color: #010c80;
+    font-family: "RocknRoll One", sans-serif !important;
+    font-size: 1.2rem;
+    word-break: break-all;
+    text-align: center;
+}
+
+.cell55_ {
+    align-items: center;
+    justify-content: center;
+}
+
+.cell77_ {
+    font-size: 1.5rem;
+    color: #0c1ae1;
+    text-align: center;
+}
+
+.addTOCart_btn9 {
+    border: none;
+    padding: 7px 25px;
+    background: #5866ff;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    cursor: pointer !important;
+}
+
+.addTOCart_btn9:hover {
+    background: #010c80;
+}
+
+@media only screen and (max-width:768px) {
+    .cell444_ h6 {
+        font-size: 1rem !important;
+        font-family: "RocknRoll One", sans-serif !important;
+        /* border: none; */
+        /* background: #5866ff !important; */
+        /* border-bottom: none; */
+    }
+
+    
+    .ordImgI{
+        height: 30px;
+    }
+
+    .cell66_{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .cell444_ h6 {
+        font-size: 0.6rem !important;
+        font-family: "RocknRoll One", sans-serif !important;
+        /* border: none; */
+        /* background: #5866ff !important; */
+        /* border-bottom: none; */
+    }
+
+    .prof_form_ {
+        width: 100%;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 40px;
+        border: 2px solid #010c80;
+        box-shadow: 5px 5px 30px -2px #010c80;
+    }
+
+    .ordImgI{
+        height: 25px;
+    }
+
+    .cell66_{
+        font-size: 0.7rem !important;
+    }
+
+    .addTOCart_btn9 {
+        border: none;
+        padding: 2px 4px;
+        background: #5866ff;
+        color: white;
+        border-radius: 5px;
+        font-size: 0.7rem;
+        transition: 0.3s;
+    }
+    
+}
+
+@media only screen and (max-width:430px) {
+    .cell444_ h6 {
+        font-size: 0.6rem !important;
+        font-family: "RocknRoll One", sans-serif !important;
+        /* border: none; */
+        /* background: #5866ff !important; */
+        /* border-bottom: none; */
+    }
+
+    .prof_form_ {
+        width: 100%;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 40px;
+        border: 2px solid #010c80;
+        box-shadow: 5px 5px 30px -2px #010c80;
+    }
+
+    .ordImgI{
+        height: 20px;
+    }
+
+    .cell66_{
+        font-size: 0.6rem !important;
+    }
+
+    .addTOCart_btn9 {
+        border: none;
+        padding: 2px 4px;
+        background: #5866ff;
+        color: white;
+        border-radius: 5px;
+        font-size: 0.6rem;
+        transition: 0.3s;
+    }
+    
+}
